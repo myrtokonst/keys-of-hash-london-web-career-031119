@@ -4,7 +4,7 @@ class Hash
       arguments.each do |argument|
       self.each do |key, value|
         if argument == value
-          common_keys.push(value)
+          common_keys<<key
         end
       end 
     end
