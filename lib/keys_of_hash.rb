@@ -5,6 +5,7 @@ class Hash
       self.each do |key, value|
         if argument == value
           common_keys.push(value)
+        end
       end 
     end
     return common_keys
