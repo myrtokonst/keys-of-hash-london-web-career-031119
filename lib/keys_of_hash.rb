@@ -7,7 +7,7 @@ class Hash
           common_keys.push(value)
         end 
       end 
-    end 
+    end
+    return common_keys
   end
-  return common_keys
 end
